@@ -1,9 +1,9 @@
 package tn.esprit.gestionzoo.entities;
 
 public class Animal{
-    private String family;
-    private String name;
-    private int age;
+    protected String family;
+    protected String name;
+    protected int age;
     boolean isMammal;
     public static int n=0;
 
